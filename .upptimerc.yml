@@ -5,8 +5,10 @@ repo: upptime # The name of this repository
 sites:
   - name: Graha Trans
     url: https://tms.graha-trans.com/
+    icon: https://grahatrans.com/wp-content/uploads/2024/10/cropped-g-270x270.jpg
   - name: Gama Trans
     url: https://tms.gamatrans.co.id/
+    icon: https://grahatrans.com/wp-content/uploads/2024/10/cropped-g-270x270.jpg
   - name: Indo GPS
     url: http://gps.indotracker.com/
   - name: McEasy
