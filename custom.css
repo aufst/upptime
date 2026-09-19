@@ -78,7 +78,6 @@ main section:nth-of-type(5) { animation-delay: 0.5s !important; }
 
 main section:hover {
   transform: translateY(-3px) !important;
-  box-shadow: 0 8px 20px rgba(45, 212, 191, 0.2) !important;
 }
 
 /* ===== 6. Efek "pop" untuk semua link (kartu status yang bisa diklik) ===== */
@@ -102,8 +101,6 @@ a:has(svg) {
 main section a:hover,
 a:has(canvas):hover,
 a:has(svg):hover {
-  transform: scale(1.015) !important;
-  box-shadow: 0 6px 18px rgba(45, 212, 191, 0.3) !important;
   z-index: 2 !important;
   position: relative !important;
 }
@@ -143,6 +140,23 @@ canvas, svg {
   to   { opacity: 1; transform: scale(1); }
 }
 
-svg path[fill] {
-  filter: drop-shadow(0 0 6px rgba(45,212,191,0.4)) !important;
-}
+/* ===== 10. Grafik warna-warni per kartu (gradient berbeda tiap situs) ===== */
+main section:nth-of-type(1) svg path[fill] { fill: url(#gradTeal) !important; }
+main section:nth-of-type(2) svg path[fill] { fill: url(#gradPurple) !important; }
+main section:nth-of-type(3) svg path[fill] { fill: url(#gradOrange) !important; }
+main section:nth-of-type(4) svg path[fill] { fill: url(#gradPink) !important; }
+
+main section:nth-of-type(1) svg path[stroke] { stroke: #2dd4bf !important; }
+main section:nth-of-type(2) svg path[stroke] { stroke: #a78bfa !important; }
+main section:nth-of-type(3) svg path[stroke] { stroke: #fb923c !important; }
+main section:nth-of-type(4) svg path[stroke] { stroke: #f472b6 !important; }
+
+main section:nth-of-type(1) { border-left: 5px solid #2dd4bf !important; }
+main section:nth-of-type(2) { border-left: 5px solid #a78bfa !important; }
+main section:nth-of-type(3) { border-left: 5px solid #fb923c !important; }
+main section:nth-of-type(4) { border-left: 5px solid #f472b6 !important; }
+
+main section:nth-of-type(1):hover { box-shadow: 0 8px 20px rgba(45, 212, 191, 0.3) !important; }
+main section:nth-of-type(2):hover { box-shadow: 0 8px 20px rgba(167, 139, 250, 0.3) !important; }
+main section:nth-of-type(3):hover { box-shadow: 0 8px 20px rgba(251, 146, 60, 0.3) !important; }
+main section:nth-of-type(4):hover { box-shadow: 0 8px 20px rgba(244, 114, 182, 0.3) !important; }
