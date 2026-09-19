@@ -26,7 +26,7 @@ status-website:
     - "<meta name='theme-color' content='#00695c'>"
   navbar:
     - title: Status
-      href: /
+      href: https://aufst.github.io/upptime/
     - title: GitHub
       href: https://github.com/$OWNER/$REPO
 
