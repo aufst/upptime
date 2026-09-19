@@ -16,15 +16,16 @@ sites:
 
 status-website:
   baseUrl: /upptime
-  theme: ocean   # pilihan: light, dark, night, ocean
+  theme: ocean
   logoUrl: https://grahatrans.com/wp-content/uploads/2024/09/logo.svg
-  favicon: https://grahatrans.com/wp-content/uploads/2024/09/logo.svg
+  favicon: https://grahatrans.com/wp-content/uploads/2024/10/cropped-g-270x270.jpg
+  name: 
   introTitle: "**Status Monitoring** untuk sistem TMS Graha Trans & Gama Trans."
   introMessage: Halaman ini menampilkan status real-time dari sistem TMS kami, diperbarui otomatis setiap beberapa menit.
   customCss:
     - https://raw.githack.com/aufst/upptime/master/assets/custom.css
-  customHeadHtml:
-    - "<meta name='theme-color' content='#00695c'>"
+  customBodyHtml:
+    - '<svg width="0" height="0" style="position:absolute"><defs><linearGradient id="gradTeal" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#2dd4bf"/><stop offset="100%" stop-color="#0d9488" stop-opacity="0.3"/></linearGradient><linearGradient id="gradPurple" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#a78bfa"/><stop offset="100%" stop-color="#7c3aed" stop-opacity="0.3"/></linearGradient><linearGradient id="gradOrange" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#fb923c"/><stop offset="100%" stop-color="#ea580c" stop-opacity="0.3"/></linearGradient><linearGradient id="gradPink" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#f472b6"/><stop offset="100%" stop-color="#db2777" stop-opacity="0.3"/></linearGradient></defs></svg>'
   navbar:
     - title: Status
       href: https://aufst.github.io/upptime/
