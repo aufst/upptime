@@ -15,6 +15,10 @@ sites:
     url: https://grahatrans.mceasy.com/
     icon: https://www.mceasy.com/wp-content/uploads/2023/01/cropped-favicon-270x270.png
 
+notifications:
+  - type: telegram
+    id: telegram-notif
+
 status-website:
   baseUrl: /upptime
   theme: ocean
@@ -29,7 +33,7 @@ status-website:
     - '<svg width="0" height="0" style="position:absolute"><defs><linearGradient id="gradTeal" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#2dd4bf"/><stop offset="100%" stop-color="#0d9488" stop-opacity="0.3"/></linearGradient><linearGradient id="gradPurple" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#a78bfa"/><stop offset="100%" stop-color="#7c3aed" stop-opacity="0.3"/></linearGradient><linearGradient id="gradOrange" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#fb923c"/><stop offset="100%" stop-color="#ea580c" stop-opacity="0.3"/></linearGradient><linearGradient id="gradPink" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#f472b6"/><stop offset="100%" stop-color="#db2777" stop-opacity="0.3"/></linearGradient></defs></svg>'
   navbar:
     - title: Status
-      href: https://aufst.github.io/upptime/
+      href: /
     - title: GitHub
       href: https://github.com/$OWNER/$REPO
 
