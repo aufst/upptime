@@ -1,0 +1,13 @@
+/* Buat konten memenuhi lebar layar */
+.container {
+  max-width: 100% !important;
+  width: 100% !important;
+  padding-left: 40px !important;
+  padding-right: 40px !important;
+}
+
+.main-wrapper,
+main {
+  max-width: 100% !important;
+  width: 100% !important;
+}
