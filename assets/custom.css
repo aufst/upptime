@@ -1,4 +1,16 @@
-/* Buat konten memenuhi lebar layar */
+/* ===== Background lebih dinamis ===== */
+body {
+  background: linear-gradient(135deg, #0f1b3d 0%, #142352 50%, #0a1428 100%) !important;
+  background-attachment: fixed !important;
+}
+
+/* ===== Navbar dengan gradient & shadow ===== */
+.navbar {
+  background: linear-gradient(90deg, #0d1b4c 0%, #16215c 100%) !important;
+  box-shadow: 0 2px 12px rgba(0,0,0,0.4) !important;
+}
+
+/* ===== Konten memenuhi lebar layar ===== */
 .container {
   max-width: 100% !important;
   width: 100% !important;
@@ -6,8 +18,38 @@
   padding-right: 40px !important;
 }
 
-.main-wrapper,
-main {
-  max-width: 100% !important;
-  width: 100% !important;
+/* ===== Kartu status: rounded, shadow, hover effect ===== */
+[class*="summary-status"],
+[class*="site-card"],
+[class*="status-card"] {
+  border-radius: 14px !important;
+  box-shadow: 0 4px 16px rgba(0,0,0,0.35) !important;
+  transition: transform 0.2s ease, box-shadow 0.2s ease !important;
+  margin-bottom: 20px !important;
+  border-left: 5px solid #2dd4bf !important;
+}
+
+[class*="summary-status"]:hover,
+[class*="site-card"]:hover,
+[class*="status-card"]:hover {
+  transform: translateY(-4px) !important;
+  box-shadow: 0 8px 24px rgba(45,212,191,0.25) !important;
+}
+
+/* ===== Warna grafik lebih hidup dengan gradient ===== */
+svg path[fill] {
+  filter: drop-shadow(0 0 6px rgba(45,212,191,0.4));
+}
+
+/* ===== Judul lebih menonjol ===== */
+h1, h2 {
+  text-shadow: 0 2px 8px rgba(0,0,0,0.3);
+}
+
+/* ===== Badge "All systems operational" lebih mencolok ===== */
+[class*="all-systems"],
+[class*="systems-operational"] {
+  border-radius: 10px !important;
+  background: linear-gradient(90deg, #065f46, #10b981) !important;
+  box-shadow: 0 4px 14px rgba(16,185,129,0.3) !important;
 }
