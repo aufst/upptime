@@ -26,7 +26,7 @@ status-website:
   favicon: https://grahatrans.com/wp-content/uploads/2024/10/cropped-g-270x270.jpg
   name: " "
   introTitle: "**Status Monitoring** untuk sistem TMS Graha Trans & Gama Trans."
-  introMessage: Halaman ini menampilkan status real-time dari sistem TMS kami, diperbarui otomatis setiap beberapa menit.
+  introMessage: " "
   customCss:
     - https://raw.githack.com/aufst/upptime/master/assets/custom.css
   customBodyHtml:
