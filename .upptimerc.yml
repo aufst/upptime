@@ -13,13 +13,14 @@ sites:
     url: http://gps.indotracker.com/
   - name: McEasy
     url: https://grahatrans.mceasy.com/
+    icon: https://www.mceasy.com/wp-content/uploads/2023/01/cropped-favicon-270x270.png
 
 status-website:
   baseUrl: /upptime
   theme: ocean
   logoUrl: https://grahatrans.com/wp-content/uploads/2024/09/logo.svg
   favicon: https://grahatrans.com/wp-content/uploads/2024/10/cropped-g-270x270.jpg
-  name: 
+  name: " "
   introTitle: "**Status Monitoring** untuk sistem TMS Graha Trans & Gama Trans."
   introMessage: Halaman ini menampilkan status real-time dari sistem TMS kami, diperbarui otomatis setiap beberapa menit.
   customCss:
