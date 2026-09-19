@@ -13,16 +13,20 @@ sites:
     url: https://grahatrans.mceasy.com/
 
 status-website:
-  # Add your custom domain name, or remove the `cname` line if you don't have a domain
-  # Uncomment the `baseUrl` line if you don't have a custom domain and add your repo name there
   baseUrl: /upptime
-  logoUrl: https://raw.githubusercontent.com/upptime/upptime.js.org/master/static/img/icon.svg
+  theme: ocean   # pilihan: light, dark, night, ocean
+  logoUrl: https://link-ke-logo-perusahaan-anda.png
+  favicon: https://link-ke-favicon.png
   name: Graha Trans Monitoring
   introTitle: "**Status Monitoring** untuk sistem TMS Graha Trans & Gama Trans."
   introMessage: Halaman ini menampilkan status real-time dari sistem TMS kami, diperbarui otomatis setiap beberapa menit.
+  customCss:
+    - https://raw.githack.com/aufst/upptime/master/assets/custom.css
+  customHeadHtml:
+    - "<meta name='theme-color' content='#00695c'>"
   navbar:
     - title: Status
-      href: https://aufst.github.io/upptime/
+      href: /
     - title: GitHub
       href: https://github.com/$OWNER/$REPO
 
