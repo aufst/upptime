@@ -17,7 +17,7 @@ status-website:
   theme: ocean   # pilihan: light, dark, night, ocean
   logoUrl: https://grahatrans.com/wp-content/uploads/2024/09/logo.svg
   favicon: https://grahatrans.com/wp-content/uploads/2024/09/logo.svg
-  name: Graha Trans Monitoring
+  name :
   introTitle: "**Status Monitoring** untuk sistem TMS Graha Trans & Gama Trans."
   introMessage: Halaman ini menampilkan status real-time dari sistem TMS kami, diperbarui otomatis setiap beberapa menit.
   customCss:
