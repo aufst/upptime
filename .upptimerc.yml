@@ -22,7 +22,7 @@ status-website:
   introMessage: Halaman ini menampilkan status real-time dari sistem TMS kami, diperbarui otomatis setiap beberapa menit.
   navbar:
     - title: Status
-      href: /
+      href: https://aufst.github.io/upptime/
     - title: GitHub
       href: https://github.com/$OWNER/$REPO
 
