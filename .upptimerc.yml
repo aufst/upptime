@@ -25,12 +25,26 @@ status-website:
   logoUrl: https://grahatrans.com/wp-content/uploads/2024/09/logo.svg
   favicon: https://grahatrans.com/wp-content/uploads/2024/10/cropped-g-270x270.jpg
   name: " "
-  introTitle: "**Status Monitoring System**"
-  introMessage: " "
+  introTitle: "**Status Monitoring** untuk sistem TMS Graha Trans & Gama Trans."
+  introMessage: Halaman ini menampilkan status real-time dari sistem TMS kami, diperbarui otomatis setiap beberapa menit.
   customCss:
     - https://raw.githack.com/aufst/upptime/master/assets/custom.css
   customBodyHtml:
     - '<svg width="0" height="0" style="position:absolute"><defs><linearGradient id="gradTeal" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#2dd4bf"/><stop offset="100%" stop-color="#0d9488" stop-opacity="0.3"/></linearGradient><linearGradient id="gradPurple" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#a78bfa"/><stop offset="100%" stop-color="#7c3aed" stop-opacity="0.3"/></linearGradient><linearGradient id="gradOrange" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#fb923c"/><stop offset="100%" stop-color="#ea580c" stop-opacity="0.3"/></linearGradient><linearGradient id="gradPink" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#f472b6"/><stop offset="100%" stop-color="#db2777" stop-opacity="0.3"/></linearGradient></defs></svg>'
+    - |
+      <div id="last-updated-badge" style="text-align:center; margin-top: 12px; opacity: 0.8; font-size: 0.9em;"></div>
+      <script>
+        fetch('https://api.github.com/repos/aufst/upptime/commits?path=history/summary.json&per_page=1')
+          .then(r => r.json())
+          .then(data => {
+            const el = document.getElementById('last-updated-badge');
+            if (Array.isArray(data) && data[0]) {
+              const d = new Date(data[0].commit.author.date);
+              el.textContent = 'Terakhir diperbarui: ' + d.toLocaleString('id-ID', { dateStyle: 'medium', timeStyle: 'short' });
+            }
+          })
+          .catch(() => {});
+      </script>
   navbar:
     - title: Status
       href: /
